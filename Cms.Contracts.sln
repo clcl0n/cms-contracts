@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cms.Contracts", "Cms.Contracts", "{1509DDD9-4D46-A9C8-E958-FFD5B74791CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cms.Contracts", "src\Cms.Contracts\src\Cms.Contracts.csproj", "{2839E0E7-8B4E-B7A3-CE69-B228123F43FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2839E0E7-8B4E-B7A3-CE69-B228123F43FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2839E0E7-8B4E-B7A3-CE69-B228123F43FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2839E0E7-8B4E-B7A3-CE69-B228123F43FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2839E0E7-8B4E-B7A3-CE69-B228123F43FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1509DDD9-4D46-A9C8-E958-FFD5B74791CE} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{2839E0E7-8B4E-B7A3-CE69-B228123F43FD} = {1509DDD9-4D46-A9C8-E958-FFD5B74791CE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6592787B-E31F-40FE-A31E-FEABE1BFAE1C}
+	EndGlobalSection
+EndGlobal
